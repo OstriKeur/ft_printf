@@ -6,7 +6,7 @@
 /*   By: smorin <smorin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 11:02:12 by smorin            #+#    #+#             */
-/*   Updated: 2023/11/21 11:02:15 by smorin           ###   ########.fr       */
+/*   Updated: 2023/11/29 14:00:27 by smorin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,8 @@ int	ft_printf(const char *format, ...)
 
 	i = 0;
 	count = 0;
+	if (!format)
+		return (-1);
 	va_start(ap, format);
 	while (format[i])
 	{
