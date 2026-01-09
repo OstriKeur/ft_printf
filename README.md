@@ -76,3 +76,9 @@ Le projet est organisé en plusieurs fichiers :
 **Projet réalisé dans le cadre du cursus 42 Paris**
 
 *Note obtenue : 120/100*
+
+---
+
+**Note obtenue : 120/100**
+
+![Note 120/100](notes/ft_printf_note.png)
